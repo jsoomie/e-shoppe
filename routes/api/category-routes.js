@@ -10,6 +10,7 @@ router.get("/", (req, res) => {
         include: [Product], // associates Products
     }).then((category) => {
         res.json(category);
+        res.status(200);
     });
 });
 
@@ -23,6 +24,7 @@ router.get("/:id", (req, res) => {
         include: [Product], // associates prodcuts
     }).then((category) => {
         res.json(category);
+        res.status(200);
     });
 });
 
