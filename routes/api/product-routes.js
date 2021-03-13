@@ -17,6 +17,7 @@ router.get("/", (req, res) => {
         ],
     }).then((product) => {
         res.json(product);
+        res.status(200);
     });
 });
 
@@ -35,6 +36,9 @@ router.get("/:id", (req, res) => {
                 through: ProductTag,
             },
         ],
+    }).then((product) => {
+        res.json(product);
+        res.status(200);
     });
 });
 
@@ -120,6 +124,7 @@ router.delete("/:id", (req, res) => {
         },
     }).then((product) => {
         res.json(product);
+        res.status(200);
     });
 });
 
