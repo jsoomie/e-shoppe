@@ -45,5 +45,5 @@ Feel free to add whatever you like and it will be loaded once reviewed!
 
 ## SCREENSHOT
 
-![Screen of app](../e-shoppe/assets/screenshot.png)
+![Screen of app](./assets/screenshot.png)
 
