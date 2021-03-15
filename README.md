@@ -18,7 +18,7 @@ To create a back-end server for an e-commerce website. Have the ability to view 
 ## LINKS
 
 - [GitHub Link](https://github.com/sksmejn/e-shoppe)
-- [Youtube Walkthrough](youtube.com)
+- [Youtube Walkthrough](https://youtu.be/-SIMcP0hnGA)
 
 ## INSTALLATION
 
